@@ -1,0 +1,8 @@
+# Ignore Data Files
+01_Raw_Data/
+*.csv
+*.xlsx
+
+# Ignore System Files
+.DS_Store
+Thumbs.db
