@@ -17,6 +17,11 @@ I am auditing 50,000+ transaction records to isolate these leaks.
 - **SQL:** Used for cleaning data, handling nulls, and calculating "True Profit" (Revenue - Returns - Cost).
 - **Power BI:** Building a dashboard to visualize the "Bleeding Zones" by region.
 
+## 💡 Initial Findings (Week 1)
+- **The "Volume vs. Value" Conflict:** While **Fashion** has the highest frequency of returns (8.28%), **Electronics** is the primary source of financial loss, accounting for **$35.2M** in leaked profit.
+- **Strategic Pivot:** The analysis will shift focus to high-ticket Electronic items, as reducing returns here yields the highest ROI.
+- **Data Health:** Identified and isolated negative profit margins in the **Grocery** category (likely loss leaders), though impact is minimal compared to Electronics.
+
 ## 📂 Repository Structure
 - `01_SQL_Scripts/`: Queries for data cleaning and validation.
 - `02_PowerBI/`: (Coming Soon) Dashboard files.
