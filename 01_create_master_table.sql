@@ -22,6 +22,7 @@ SELECT
     quantity,
     price AS unit_price,
     total_amount AS gross_revenue,
+    profit_margin,
     
     -- Potential Profit (Money we expected to make)
     ROUND(total_amount * profit_margin, 2) AS potential_profit,
