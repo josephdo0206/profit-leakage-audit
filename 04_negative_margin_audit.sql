@@ -3,6 +3,8 @@
    Author: Joseph Do
    Description: Audit for "Bad Sales." Identifies transactions where we lost money 
    despite a successful sale (likely due to excessive discounts).
+
+   KEY INSIGHT: Electronics is the only category dominating BOTH "Profit Leakage from Returns" and "Negative Margin Sales," making it the #1 priority for intervention.
 */
 
 SELECT 

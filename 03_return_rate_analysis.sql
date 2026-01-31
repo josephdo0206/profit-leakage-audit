@@ -2,6 +2,8 @@
    Script: 03_return_rate_analysis.sql
    Author: Joseph Do
    Description: Calculates return rates and total lost profit by product category.
+
+   KEY INSIGHTS: While Fashion has the highest frequency of returns (8.28%), Electronics is the primary source of financial loss, accounting for $35.2M in leaked profit.
 */
 
 SELECT 
