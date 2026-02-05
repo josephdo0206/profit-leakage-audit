@@ -13,7 +13,7 @@
 3. **Inventory Lag:** Products sitting in warehouses for >90 days.
 
 ## 🛠️ My Approach
-I am auditing 50,000+ transaction records to isolate these leaks.
+I am auditing 25,000+ transaction records to isolate these leaks.
 - **SQL:** Used for cleaning data, handling nulls, and calculating "True Profit" (Revenue - Returns - Cost).
 - **Power BI:** Building a dashboard to visualize the "Bleeding Zones" by region.
 
