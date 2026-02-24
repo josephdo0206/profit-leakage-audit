@@ -10,7 +10,7 @@
 * **Scale:** Audited **25,000+** transaction records using BigQuery SQL to isolate root causes of margin slippage.
 
 ### 📊 Dashboard Preview
-![Power BI Dashboard Screenshot]<img width="1429" height="801" alt="Profit_Leakage_Analysis_Dashboard" src="https://github.com/user-attachments/assets/0332b575-99a6-43db-9703-bc74dec540f3" />
+<img width="1429" height="801" alt="Profit_Leakage_Analysis_Dashboard" src="https://github.com/user-attachments/assets/0332b575-99a6-43db-9703-bc74dec540f3" />
 
 ## 💼 Business Problem
 "SwiftCart" (a mid-sized retailer) has seen Revenue grow by 15%, but **Net Profit** has dropped by 5%. The CFO suspects "Profit Leakage" in the supply chain but cannot pinpoint the cause.
@@ -36,9 +36,6 @@ I am auditing 25,000+ transaction records to isolate these leaks.
 * **The "Volume vs. Value" Discovery:** With clean data, the analysis revealed a critical conflict:
     * **Fashion** has the highest *frequency* of returns (8.28%).
     * **Electronics** is the true financial drain, accounting for **$245,000** in Revenue Lost (due to high item cost) despite lower return frequency.
-
-**Visual Proof: Frequency vs. Severity Analysis**
-<img width="1241" height="731" alt="Dashboard_rough_draft" src="https://github.com/user-attachments/assets/841ea9d3-a3a4-4ae2-bb37-a5d900ce78f9" />
 
 ## 📂 Repository Structure
 - `01_SQL_Scripts/`: Queries for data cleaning and validation.
