@@ -10,7 +10,7 @@
 * **Scale:** Audited **25,000+** transaction records using BigQuery SQL to isolate root causes of margin slippage.
 
 ### 📊 Dashboard Preview
-![Power BI Dashboard Screenshot](<img width="1429" height="801" alt="Profit_Leakage_Analysis_Dashboard" src="https://github.com/user-attachments/assets/0332b575-99a6-43db-9703-bc74dec540f3" />)
+![Power BI Dashboard Screenshot]<img width="1429" height="801" alt="Profit_Leakage_Analysis_Dashboard" src="https://github.com/user-attachments/assets/0332b575-99a6-43db-9703-bc74dec540f3" />
 
 ## 💼 Business Problem
 "SwiftCart" (a mid-sized retailer) has seen Revenue grow by 15%, but **Net Profit** has dropped by 5%. The CFO suspects "Profit Leakage" in the supply chain but cannot pinpoint the cause.
